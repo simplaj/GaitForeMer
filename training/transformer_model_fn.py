@@ -185,7 +185,7 @@ def save_json(filename, attributes, names):
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument('--model_prefix', type=str, default='')
-  parser.add_argument('--batch_size', type=int, default=16)
+  parser.add_argument('--batch_size', type=int, default=2)
   parser.add_argument('--data_path', type=str)
   parser.add_argument('--learning_rate', type=float, default=1e-5)
   parser.add_argument('--max_epochs', type=int, default=500)
